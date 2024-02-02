@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosebud Charcoal Chicken</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #e74c3c;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden; /* Ensure sections don't overlap with the fixed footer */
+        }
+
+        section:hover {
+            cursor: pointer;
+        }
+
+        section > * {
+            padding: 20px;
+        }
+
+        section a {
+            display: inline-block;
+            text-decoration: none;
+            color: #333;
+            outline: none;
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        section a:hover {
+            background-color: #c0392b;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 999; /* Ensure the footer appears above other elements */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rosebud Charcoal Chicken</h1>
+    </header>
+
+    <nav>
+        <!-- Add navigation links here if needed -->
+    </nav>
+
+    <section>
+        <h2>Chicken:</h2>
+        <ul>
+            <li>Whole $19</li>
+            <li>Half $10</li>
+            <li>Quarter $5.50</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Sides:</h2>
+        <ul>
+            <li>Large chips $7</li>
+            <li>Medium chips $5.50</li>
+            <li>Small chips $4</li>
+            <li>Large salad $6.50</li>
+            <li>Regular salad $4.50</li>
+            <li>Large potato bake $12</li>
+            <li>Medium potato bake $9</li>
+            <li>Small potato bake $5</li>
+            <li>Large gravy $5</li>
+            <li>Medium gravy $2</li>
+            <li>Small gravy $1</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Fried:</h2>
+        <ul>
+            <li>3 garlic balls $5</li>
+            <li>1 garlic ball $1.80</li>
+            <li>3 tenders $5.50</li>
+            <li>1 tender $2</li>
+            <li>6 nuggets $4</li>
+            <li>1 nugget $0.80</li>
+            <li>3 croquettes $5</li>
+            <li>1 croquette $1.80</li>
+            <li>Dim Sim/potato cake $1.20 each</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Burgers:</h2>
+        <ul>
+            <li>Schnitzel (LOT)(CHEESE) $9</li>
+            <li>Mayo or gravy roll $8</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Lunch Combos:</h2>
+        <ul>
+            <li>Quarter chook box (drink, chips, gravy) $11</li>
+            <li>Half chook box (same as above)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Thank You</h2>
+        <p>We appreciate your visit to Rosebud Charcoal Chicken!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rosebud Charcoal Chicken</p>
+    </footer>
+
+</body>
+</html>
